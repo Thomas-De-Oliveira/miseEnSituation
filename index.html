@@ -1,7 +1,8 @@
 <!doctype html>
-<html>
+<html lang="fr">
 
 <head>
+  <title>Exercice</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
@@ -10,7 +11,7 @@
 
 <body>
   <nav class="flex flex-nowrap bg-slate-200 w-full">
-      <img src="public/download.png" width="100" height="100" class="p-5"/>
+      <img src="public/download.png" alt="logo" width="100" height="100" class="p-5"/>
       <i class="flex fa fa-bars grow justify-end place-self-center pr-5 lg:hidden"></i>
       <a class="hidden lg:block lg:flex lg:grow lg:justify-center lg:pr-2 lg:place-self-center">page1</a>
       <a class="hidden lg:block lg:flex lg:grow lg:justify-center lg:pr-2 lg:place-self-center">page2</a>
@@ -23,25 +24,29 @@
   <section class="relative bg-black grid grid-cols-1 gap-5 justify-items-center 
 pt-14 pb-10 pl-5 pr-10 md:grid-cols-2 md:gap-2 md:pl-14 md:pr-20 lg:grid-cols-3 lg:grid-rows-2 lg:grid-flow-col">
     <div class="absolute z-0 bg-orange-600 w-64 h-1/4 top-6 right-5 md:w-3/5 md:h-1/3 lg:w-2/5 lg:h-2/5"></div>
-    <img src="public/download-1.jpg" class="z-10 w-80 h-96 md:w-full lg:order-1"/>
-    <img src="public/download.jpg" class="z-10 w-80 h-96 md:w-full lg:order-3"/>
+    <img src="public/download-1.jpg" alt="img1" class="z-10 w-80 h-96 md:w-full lg:order-1"/>
+    <img src="public/download.jpg"  alt="img2" class="z-10 w-80 h-96 md:w-full lg:order-3"/>
     <div class="bg-orange-600 w-80 h-96 md:w-full lg:order-2">
       <h1 class="font-bold text-white text-lg pt-5 pl-5">Blop test Blop</h1>
       <p class="flex flex-wrap text-left text-white w-80 p-5">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        when an unknown printer took a galley of type and scrambled it to make a type specimen
         book. It has survived not only five centuries, but also the leap into electronic typesetting
       </p>
     </div>
-    <img src="public/download-2.jpg" class="w-80 h-64 md:h-96 md:w-full lg:order-4"/>
-    <div class="bg-white w-80 h-96 md:col-span-2 md:w-auto md:h-auto md:pb-5 lg:col-span-1 lg:row-span-2 lg:z-10 lg:order-5 lg:flex lg:flex-wrap lg:flex-col lg:justify-center">
-      <h1 class="font-bold text-orange-600 text-2xl pt-5 pl-5 lg:flex lg:flex-wrap lg:w-full lg:text-left">Blop test Blop</h1>
+    <img src="public/download-2.jpg" alt="img3" class="w-80 h-64 md:h-96 md:w-full lg:order-4"/>
+    <div class="bg-white w-80 h-96 md:col-span-2 md:w-auto md:h-auto md:pb-5 lg:col-span-1 lg:row-span-2 
+    lg:z-10 lg:order-5 lg:flex lg:flex-wrap lg:flex-col lg:justify-center">
+      <h1 class="font-bold text-orange-600 text-2xl pt-5 pl-5 lg:flex lg:flex-wrap lg:w-full lg:text-left">
+        Blop test Blop
+      </h1>
       <p class="flex flex-wrap text-left text-black w-80 p-5 md:w-full">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-        standard
-        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-        specimen
-        book. It has survived not only five centuries, but also the leap into electronic typesetting
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard
+        dummy text ever since the 1500s, when an unknown printer took a galley of type and 
+        scrambled it to make a type specimen book. It has survived not only five centuries, 
+        but also the leap into electronic typesetting
       </p>
       <button type="button" class="w-40 ml-5 p-2 bg-orange-600 text-white font-bold">View Menu</button>
     </div>
